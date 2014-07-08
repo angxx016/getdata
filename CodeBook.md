@@ -13,10 +13,15 @@ Those datasets were imported to modify the data.
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
 Steps:
+
 1. download the datasets, and combine test set with training set.
+
 2. calculate mean and standard deviation for each 561 features.
+
 3. download activity names and match them with datasets.
+
 4. download feature names and match them with variables.
+
 5. divid the data into two levels: 30 subjects and 6 activities, and calculate mean for each 561 features.Then write the tidy data to file.
 
 Source:
